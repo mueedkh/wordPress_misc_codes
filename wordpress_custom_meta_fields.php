@@ -2,7 +2,7 @@
 /**
  * Add meta box
  */
-function food_add_meta_boxes( $post ){
+function mkwebs_add_meta_boxes( $post ){
 	add_meta_box( 'YOUR_METABOX_ID','YOUR_METABOX_TITLE', 'YOUR_METABOX_CALLBACK_FUNCTION', 'POST_TYPE', 'PLACEMENT (side or normal etc)', 'PRIORITY (high, low etc)' ); //REPLACE YOUR VALUES WITH CAPITAL TEXTS
 }
 add_action( 'add_meta_boxes', 'mkwebs_add_meta_boxes' );
